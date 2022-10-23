@@ -38,6 +38,8 @@ export default function QueryBuilder({ open, setOpen }: any) {
             setOutputString(outputQueryString)
             setOutputObject(outputQueryObject)
         }
+
+        console.log(outputString, outputObject)  // Query results are logged and also shown in the nested child modal when use clicks on "Finish" button
     }, [selectedOptions])
 
     function handleAddFilter () {
