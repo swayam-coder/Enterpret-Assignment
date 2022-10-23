@@ -1,4 +1,4 @@
-import { IConditions, IConnectors, IConnectorsString, IFields, IRule, IRuleGroup, ISelectedOptions } from "../types";
+import { IConditions, IConnectorsString, IFields, IRule, IRuleGroup, ISelectedOptions } from "../types";
 import _ from 'lodash'
 import { conditionSymbols, Connectors } from "./data";
 
