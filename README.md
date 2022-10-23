@@ -16,6 +16,6 @@
 * Copy button to copy query output to clipboard
 
 ## Steps:
-1.) Click on "Build Query" button then the Query Builder Modal will open
-2.) Build you desired query
-3.) To access/copy query output in desired format click on the "Finish" button and a child modal will open where you can toggle between query output formats and copy the result by clicking on "Copy" button 
+* Click on "Build Query" button then the Query Builder Modal will open
+* Build you desired query
+* To access/copy query output in desired format click on the "Finish" button and a child modal will open where you can toggle between query output formats and copy the result by clicking on "Copy" button 
