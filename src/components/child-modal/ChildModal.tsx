@@ -1,7 +1,8 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
-import { ChildQueryBuilderModal, CloseModal } from '../styled-components/QueryBuilderModal';
+import { ChildQueryBuilderModal } from './ChildModal.styled';
+import { CloseModal } from '../common.styled';
 
 export default function ChildModal({ buttonText, btncolor, children }: { buttonText: string, btncolor: string, children: React.ReactNode }) {
     const [open, setOpen] = React.useState(false);

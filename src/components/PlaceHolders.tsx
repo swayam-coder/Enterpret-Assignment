@@ -1,4 +1,4 @@
-import { PlaceHolderPaper } from "../styled-components/PaperItem"
+import { PlaceHolderPaper } from "./common.styled"
 
 export default function PlaceHolders({ no }: { no: number }) {
     return (

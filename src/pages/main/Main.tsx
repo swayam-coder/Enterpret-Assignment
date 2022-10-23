@@ -1,19 +1,18 @@
 import React from 'react'
-import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import InputAdornment from '@mui/material/InputAdornment';
-import TextField from "./styled-components/search-box"
+import TextField from "./search-box.styled"
 import DownloadIcon from '@mui/icons-material/Download';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
-import PlaceHolders from './components/PlaceHolders';
-import { StyledBox, StyledGrid } from "./styled-components/left-grid"
-import { StyledBox as RightStyleBox } from "./styled-components/right-grid"
-import { BuildQueryButton, FeedBackButtons, MainGrid } from './styled-components/Main';
-import QueryBuilder from './components/QueryBuilder';
+import { StyledBox, StyledGrid } from "./left-grid.styled"
+import { StyledBox as RightStyleBox } from "./right-grid.styled"
+import { BuildQueryButton, FeedBackButtons, MainGrid } from './Main.styled';
+import PlaceHolders from '../../components/PlaceHolders';
+import QueryBuilder from '../../components/query-builder/QueryBuilder';
 
 export default function Main() {
     const theme = useTheme()

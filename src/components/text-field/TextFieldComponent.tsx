@@ -1,4 +1,4 @@
-import { PlaceHolderPaper } from '../styled-components/PaperItem';
+import { PlaceHolderPaper } from '../common.styled';
 import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';

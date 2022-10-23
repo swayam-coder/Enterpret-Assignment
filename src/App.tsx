@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/main-navbar/Navbar"
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import Main from "./Main";
+import Main from "./pages/main/Main";
 import { Toaster } from 'react-hot-toast';
 import SelectedOptionsProvider from "./context/SelectedOptions";
 

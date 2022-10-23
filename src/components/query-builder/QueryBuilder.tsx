@@ -1,22 +1,23 @@
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { AddFilterButton, CloseModal, CopyButton, ModalHeader, QueryBuilderModal } from '../styled-components/QueryBuilderModal';
+import { AddFilterButton, CopyButton, ModalHeader, QueryBuilderModal } from './QueryBuilder.styled';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
-import { ACTION_TYPES, IConnectorsString, IRuleGroup, ISelectedOptions } from '../types';
+import { IConnectorsString, IRuleGroup } from '../../types';
 import AddIcon from '@mui/icons-material/Add';
 import { useState, useEffect, useReducer } from 'react'
 import toast from 'react-hot-toast';
-import { connectors, defaultOptions } from '../utils/data';
-import { QueryFormatterUtil } from '../utils/formatter';
-import ToggleSwitch from './ToggleSwitch';
+import { connectors, defaultOptions } from '../../utils/data';
+import { QueryFormatterUtil } from '../../utils/formatter';
+import ToggleSwitch from '../toggle-switch/ToggleSwitch';
 import React from 'react'
-import { TextFieldComponent } from './TextFieldComponent';
-import ChildModal from './ChildModal';
-import ModalTabs from './ModalTabs';
-import BuilderOptionsComponent from './BuilderOptions';
-import { useSelectedOptions } from '../context/SelectedOptions';
+import { TextFieldComponent } from '../text-field/TextFieldComponent';
+import ChildModal from '../child-modal/ChildModal';
+import ModalTabs from '../modal-tabs/ModalTabs';
+import BuilderOptionsComponent from '../builder-options/BuilderOptions';
+import { useSelectedOptions } from '../../context/SelectedOptions';
+import { CloseModal } from '../common.styled';
 
 export default function QueryBuilder({ open, setOpen }: any) {
     const { selectedOptions, dispatch } = useSelectedOptions()

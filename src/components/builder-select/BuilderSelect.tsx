@@ -2,9 +2,9 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { ACTION_TYPES, IBuilderOptions, ISelectedOptions } from '../types';
+import { ACTION_TYPES, IBuilderOptions, ISelectedOptions } from '../../types';
 import { useTheme } from '@mui/material/styles';
-import { useSelectedOptions } from '../context/SelectedOptions';
+import { useSelectedOptions } from '../../context/SelectedOptions';
 
 export default function BuilderSelectComponent({ options: { label, placeholder, options, name }, rowIndex }: { options: IBuilderOptions, rowIndex: number }) {
     const theme = useTheme()

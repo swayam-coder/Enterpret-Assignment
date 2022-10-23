@@ -1,5 +1,5 @@
 import React from 'react'
-import { selectedOptionsReducer } from '../reducer'
+import { selectedOptionsReducer } from '../reducers/selectedoptions.reducer'
 import { defaultOptions } from '../utils/data'
 import { createContext, useContext } from 'react';
 

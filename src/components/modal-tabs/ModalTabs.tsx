@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { AntTab, AntTabs } from '../styled-components/QueryBuilderModal';
+import { AntTab, AntTabs } from './ModalTabs.styled';
 
 interface TabPanelProps {
   children?: React.ReactNode;

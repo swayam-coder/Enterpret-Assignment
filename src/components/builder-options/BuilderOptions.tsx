@@ -1,11 +1,11 @@
 import React from 'react'
-import { BuilderOptions } from '../styled-components/QueryBuilderModal'
-import { ACTION_TYPES, ISelectedOptions } from '../types'
-import { builderOptions } from '../utils/data'
-import BuilderSelectComponent from './BuilderSelect'
+import { BuilderOptions } from './BuilderOptions.styled'
+import { ACTION_TYPES, ISelectedOptions } from '../../types'
+import { builderOptions } from '../../utils/data'
+import BuilderSelectComponent from '../builder-select/BuilderSelect'
 import DeleteIcon from '@mui/icons-material/Delete';
 import Button from '@mui/material/Button';
-import { useSelectedOptions } from '../context/SelectedOptions'
+import { useSelectedOptions } from '../../context/SelectedOptions'
 
 export default function BuilderOptionsComponent() {
     const { selectedOptions, dispatch } = useSelectedOptions()

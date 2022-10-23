@@ -1,7 +1,6 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
@@ -10,13 +9,13 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import Logo from '../assets/Group-1.webp'
-import NavButton1 from '../assets/Frame-1.webp'
-import NavButton2 from '../assets/Frame-3.webp'
-import NavButton3 from '../assets/Frame-2.webp'
-import AvatarImg from '../assets/Avatars.webp'
+import Logo from '../../assets/Group-1.webp'
+import NavButton1 from '../../assets/Frame-1.webp'
+import NavButton2 from '../../assets/Frame-3.webp'
+import NavButton3 from '../../assets/Frame-2.webp'
+import AvatarImg from '../../assets/Avatars.webp'
 import { styled as MuiStyled } from '@mui/material/styles';
-import { StyledToolbar } from '../styled-components/Navbar';
+import { StyledToolbar } from './Navbar.styled';
 
 const pages = [NavButton1, NavButton2, NavButton3];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
