@@ -12,7 +12,7 @@
 ## Steps:
 #### 1) Click on "Build Query" button then the Query Builder Modal will open
 #### 2) Build your desired query
-#### 3) To access/copy query output in desired format click on the "Finish" button and a child modal will open where you can toggle between query output formats and copy         the result by clicking on "Copy" button 
+#### 3) To access or copy query output in desired format click on the "Finish" button and a child modal will open where you can toggle between query output formats and copy the result by clicking on "Copy" button 
 
 ## Technologies Used.
 
