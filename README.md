@@ -17,7 +17,7 @@
 ## Info:
 * Only equals and not equals conditions and conjuctions are mapped to there corresponding symbols i.e. ==, !=, && and ||, other conditions are used directly as string and not mapped to any symbols (It's cuz I couldnt think of any symbols to map them to..😅)
 
-## Technologies Used.
+## Technologies Used:
 
 * ReactJS + TypeScript
 * Material UI
