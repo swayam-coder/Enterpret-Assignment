@@ -17,7 +17,7 @@ import ChildModal from '../child-modal/ChildModal';
 import ModalTabs from '../modal-tabs/ModalTabs';
 import BuilderOptionsComponent from '../builder-options/BuilderOptions';
 import { useSelectedOptions } from '../../context/SelectedOptions';
-import { CloseModal } from '../common.styled';
+import { CloseModal } from '../common/common.styled';
 
 export default function QueryBuilder({ open, setOpen }: any) {
     const { selectedOptions, dispatch } = useSelectedOptions()

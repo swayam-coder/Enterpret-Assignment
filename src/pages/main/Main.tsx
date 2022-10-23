@@ -11,7 +11,7 @@ import { useTheme } from '@mui/material/styles';
 import { StyledBox, StyledGrid } from "./left-grid.styled"
 import { StyledBox as RightStyleBox } from "./right-grid.styled"
 import { BuildQueryButton, FeedBackButtons, MainGrid } from './Main.styled';
-import PlaceHolders from '../../components/PlaceHolders';
+import PlaceHolders from '../../components/common/PlaceHolders';
 import QueryBuilder from '../../components/query-builder/QueryBuilder';
 
 export default function Main() {
