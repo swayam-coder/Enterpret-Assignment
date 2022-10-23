@@ -37,13 +37,3 @@ export default function BuilderSelectComponent({ options: { label, placeholder, 
         </FormControl>
     )
 }
-
-// Composing Components and making more independent
-
-// not? (see IRuleGroup) ->
-// groupfilters ->
-
-// Cant move ahead unless prev query is complete
-// Only equals and not equals have symbol mapping
-// Not implemented Not
-// Modals not responsive
