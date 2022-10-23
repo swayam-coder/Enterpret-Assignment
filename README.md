@@ -1,6 +1,6 @@
 # Frontend Assignment | Enterpret
 #### Deployed Site: https://enterpret-assignment-swayam.netlify.app/
-#### Codesandbox Link: https://bit.ly/3D1FGqs
+#### CodeSandbox Link: https://bit.ly/3D1FGqs
 
 ## Technologies Used.
 
