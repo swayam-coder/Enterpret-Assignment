@@ -30,7 +30,6 @@ export const CopyButton = MuiStyled(Button)(({ theme }) => ({
   borderRadius: "6px",
 
   [theme.breakpoints.down("md")]: {
-    top: "540px",
-    right: "40%",
+    right: "10px"
   },
 }));
