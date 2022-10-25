@@ -16,6 +16,7 @@ export const BuilderModal = MuiStyled(Modal)(({ theme }) => ({
     pb: 3,
     overflowY: 'scroll',
     cursor: 'default',
+    scrollbarWidth:'none',
 
     '&::-webkit-scrollbar': {
         display: "none"
