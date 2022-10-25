@@ -7,12 +7,12 @@ export const conditionSymbols: IConditionSymbols =  {
     "Not Like": "Not Like",
     "Is Empty": "Is Empty",
     "Is": "Is",
-    "Is not": "Is not"
+    "Is Not": "Is Not"
 }
 
 export const builderOptions: IBuilderOptions[] = [
     { label: 'Field', placeholder: 'Select Field', name: 'field', options: ['Theme' , 'Sub-theme' , 'Reason' , 'Language' , 'Source' , 'Rating' , 'Time Period' , 'Customer ID'] },
-    { label: 'Condition', placeholder: 'Select Condition', name: 'condition', options: ['Equals' , 'Does not equal' , 'Like' , 'Not like' , 'Is Empty' , 'Is' , 'Is not'] },
+    { label: 'Condition', placeholder: 'Select Condition', name: 'condition', options: ['Equals' , 'Does not equal' , 'Like' , 'Not Like' , 'Is Empty' , 'Is' , 'Is Not'] },
     { label: 'Criteria', placeholder: 'Select Criteria', name: 'criteria', options: ['Offers' , 'Performance' , 'Platform' , 'Product Feedback'] }
 ]
 

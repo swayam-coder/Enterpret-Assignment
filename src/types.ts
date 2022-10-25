@@ -1,7 +1,7 @@
 export type IConnectors = '&&' | '||'
 export type IConnectorsString = 'AND' | 'OR'
 export type IFields = 'Theme' | 'Sub-theme' | 'Reason' | 'Language' | 'Source' | 'Rating' | 'Time Period' | 'Customer ID' | ''
-export type IConditions = 'Equals' | 'Does not equal' | 'Like' | 'Not like' | 'Is Empty' | 'Is' | 'Is not' | ''
+export type IConditions = 'Equals' | 'Does not equal' | 'Like' | 'Not Like' | 'Is Empty' | 'Is' | 'Is Not' | ''
 export type ICriteria = 'Offers' | 'Performance' | 'Platform' | 'Product Feedback'
 
 export interface IRule {
